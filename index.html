@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/ServizioTech.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Home</title>
+</head>
+
+<body>
+
+  <!--CONTENUTO INIZIALE NAVBAR-->
+
+  <header>
+    <nav class="navbar navbar-expand-lg" style="position: relative; background-color: #5299A9; ">
+      <img src="./img/Logo_CyberBytes.png"
+        style="position:absolute; height: 50px; width: 100px; left: calc(50% - 50px);top: 4px;" alt="">
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">CyberBytes©</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/loginUsers.html"><b>LOGIN USERS /
+                  ENTRA</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/loginAdmin.html"><b>LOGIN ADMIN</b></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <label for="language-selector" id="language-label"></label><br>
+
+            <select id="language-selector" class="form-select" aria-label="Default select example"
+              style="background-color: #000000; color: white; width: 50%;">
+              <option value="it">Italiano </option>
+              <option value="en">Inglese</option>
+            </select>
+
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!--Barra di Scorrimento PAYPAL E CONSEGNE-->
+
+  <div class="custom-marquee " role="region">
+    <div class="track">
+      <span class="content marquee-text" id="eng1">PAGA ALLA CONSEGNA
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PAGA CON PAYPAL
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SPEDIZIONE RAPIDA IN 24/48H
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span class="content marquee-text" id="eng1">PAGA ALLA CONSEGNA
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PAGA CON PAYPAL
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SPEDIZIONE RAPIDA IN 24/48H
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span class="content marquee-text" id="eng1">PAGA ALLA CONSEGNA
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PAGA CON PAYPAL
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SPEDIZIONE RAPIDA IN 24/48H
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span class="content marquee-text" id="eng1">PAGA ALLA CONSEGNA
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PAGA CON PAYPAL
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SPEDIZIONE RAPIDA IN 24/48H
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span class="content marquee-text" id="eng1">PAGA ALLA CONSEGNA
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PAGA CON PAYPAL
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SPEDIZIONE RAPIDA IN 24/48H
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span class="content marquee-text" id="eng1">PAGA ALLA CONSEGNA
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PAGA CON PAYPAL
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SPEDIZIONE RAPIDA IN 24/48H
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span class="content marquee-text" id="eng1">PAGA ALLA CONSEGNA
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PAGA CON PAYPAL
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SPEDIZIONE RAPIDA IN 24/48H
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span class="content marquee-text" id="eng1">PAGA ALLA CONSEGNA
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PAGA CON PAYPAL
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SPEDIZIONE RAPIDA IN 24/48H
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span class="content marquee-text" id="eng1">PAGA ALLA CONSEGNA
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PAGA CON PAYPAL
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SPEDIZIONE RAPIDA IN 24/48H
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span class="content marquee-text" id="eng1">PAGA ALLA CONSEGNA
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PAGA CON PAYPAL
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SPEDIZIONE RAPIDA IN 24/48H
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </div>
+  </div>
+  <script>
+    var marquees = document.getElementsByClassName("marquee-text");
+    for (let i = 0; i < marquees.length; i++) {
+      // console.log(marquees.item(i));
+      let str = marquees.item(i).innerHTML;
+      let improvedText = str.replaceAll("|", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;")
+      console.log(improvedText)
+      marquees.item(i).innerHTML = improvedText
+    }
+  </script>
+
+  <div id="shopify-section-marquee" class="shopify-section">
+    <style>
+      .custom-marquee {
+        position: relative;
+        width: 100vw;
+        max-width: 100%;
+        height: 43px;
+        overflow-x: hidden;
+        background: #000000;
+        color: #ffffff;
+      }
+
+      .custom-marquee a {
+        color: #ffffff;
+      }
+
+      .custom-marquee .track {
+        position: absolute;
+        bottom: 6px;
+        white-space: nowrap;
+        will-change: transform;
+        animation: marquee 20s linear infinite;
+      }
+
+      .custom-marquee .track:hover {
+        animation-play-state: paused;
+      }
+
+      .custom-marquee .content {
+        margin-left: 40px;
+      }
+
+      @keyframes marquee {
+        from {
+          transform: translateX(0);
+        }
+
+        to {
+          transform: translateX(-20%);
+        }
+
+        /* Modifica la durata dell'animazione da 12 secondi a 20 secondi per renderla più lenta */
+
+      }
+    </style>
+
+    <!--CONTENUTO CENTRALE E DESCRIZIONI DEI VARI SERVIZI-->
+
+    <main class="sfondo">
+      <div class="titolo">
+        <img style="width: 230px; height: 150px; margin-top: 20px;" src="./img/Logo_CyberBytes.png" alt="">
+      </div>
+      <div class="cardIndex">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/Servizi-Informatici-MP-Web-Solution-e1620976323325.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/macbook.png" alt="macbook" />
+            <h5 class="card-title" id="titolo1">Tecnici Di Zona Sempre Vicini</h5>
+            <p class="card-text" id="paragrafo1">Siamo presenti a Napoli e in tutta la provincia di Napoli con un
+              servizio professionale e sempre aggiornato. Facciamo il possibile per riparare direttamente a domicilio a
+              Napoli ed in breve tempo!</p>
+            <a href="#" class="btn btn-primary" style="background-color: #5299A9;">Scopri Di Piu</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/male-technician-working-broken-computer_23-2147922177.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/workstation.png" alt="workstation" />
+            <h5 class="card-title" id="titolo2">Riparazione Elettrodomestici Napoli a Domicilio</h5>
+            <p class="card-text" id="paragrafo2">Chiama subito per prenotare un appuntamento.
+              Il nostro tecnico specializzato sarà a casa tua a Napoli nel minor tempo possibile e ti consiglierà, in
+              base al tipo di guasto, se riparare o sostituire il tuo elettrodomestico .</p>
+            <a href="#" class="btn btn-primary" style="background-color: #5299A9;">Via Napoli 189</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/soporte-tecnico-informatico.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/phone--v1.png" alt="phone--v1" />
+            <h5 class="card-title" id="titolo3">Assistenza elettrodomestici Napoli
+              Orari d'apertura</h5>
+            <p class="card-text" id="paragrafo3">Lunedì - Venerdì</p> 8.30-19.30</p>
+            <p>Sabato 8.30-13.00</p>
+            <a href="#" class="btn btn-primary" style="background-color: #5299A9;">3483690101</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="icons8">
+      <h1 id="titolo4">Informazioni</h1>
+    </div>
+    <div class="icons9">
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <img width="64" height="64" src="https://img.icons8.com/nolan/64/monitor.png" alt="monitor" />
+            <h3 style="display: block;" id="titolo5">Monitor</h3>
+            <span id="paragrafo4">Riparazione e Manutenzione Di Monitor Per i Principali Marchi</span>
+          </div>
+          <div class="col">
+            <img width="64" height="64" src="https://img.icons8.com/nolan/64/processor.png" alt="processor" />
+            <h3 style="display: block;" id="titolo6">Processore</h3>
+            <span id="paragrafo5">Riparazione e Manutenzione Di Processori Dei Principali Marchi</span>
+          </div>
+          <div class="col">
+            <img width="64" height="64" src="https://img.icons8.com/nolan/64/video-card.png" alt="video-card" />
+            <h3 style="display: block;" id="titolo7">Schede Video</h3>
+            <span id="paragrafo6">Riparazione e Manutenzione Di Schede Video Per i Principali Marchi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="icons9">
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <img width="64" height="64" src="https://img.icons8.com/nolan/64/motherboard.png" alt="motherboard" />
+            <h3 style="display: block;" id="titolo8">Schede Madri</h3>
+            <span id="paragrafo7">Riparazione e Manutenzione Di Schede Madri Per i Principali Marchi</span>
+          </div>
+          <div class="col">
+            <img width="64" height="64" src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/ssd.png" alt="ssd" />
+            <h3 style="display: block;" id="titolo9">SSD</h3>
+            <span id="paragrafo8">Riparazione e Manutenzione Di SSD Dei Principali Marchi</span>
+          </div>
+          <div class="col">
+            <img width="64" height="64" src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/hdd.png" alt="hdd" />
+            <h3 style="display: block;" id="titolo10">HDD</h3>
+            <span id="paragrafo9">Riparazione e Manutenzione Di HDD Per i Principali Marchi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--ISCRIVITI ALLA NEWS LETTER-->
+
+    <div style="display: flex; align-items: center; justify-content: center; background-color: #5299A9;">
+      <form style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+        <h2>Iscriviti Alla NewsLetter <img width="64" height="64" src="https://img.icons8.com/nolan/64/gmail.png"
+            alt="gmail" /></h2>
+        <div class="row mb-3" style="display: flex; align-items: center; justify-content: center; width: 90%;">
+          <label style="display: flex; align-items: center; justify-content: center;" for="inputEmail3"
+            class="col-sm-2 col-form-label">Email:</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3">
+          </div>
+        </div>
+        <div class="row mb-3" style="display: flex; align-items: center; justify-content: center; width: 90%;">
+          <label style="display: flex; align-items: center; justify-content: center;" for="inputPassword3"
+            class="col-sm-2 col-form-label">Password:</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3">
+          </div>
+        </div>
+        <fieldset class="row mb-3">
+          <legend class="col-form-label col-sm-2 pt-0">Seleziona:</legend>
+
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+              <label class="form-check-label" for="gridRadios1">
+                Salva i Dati
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              <label class="form-check-label" for="gridRadios2">
+                Non Salvare i Dati
+              </label>
+              <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+                aria-valuemin="20" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="form-check disabled">
+              <label class="form-check-label" for="gridRadios3">
+
+              </label>
+            </div>
+          </div>
+        </fieldset>
+        <div class="row mb-3">
+          <div class="col-sm-10 offset-sm-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                Accetta Termini e Condizioni Della Pagina!
+              </label>
+            </div>
+          </div>
+        </div>
+        <button style="margin-bottom: 20px;" type="submit" class="btn btn-primary">Iscriviti</button>
+      </form>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" style="display: flex; align-items: center; justify-content: center; gap: 100px;">
+        <div class="carousel-item active" >
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span><br>
+          Francesco89
+          
+          <img width="64" height="64" src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/feedback-hub.png"
+            alt="feedback-hub" />
+
+        </div>
+        <div class="carousel-item">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span><br>
+          Maria76
+          
+          <img width="64" height="64" src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/feedback-hub.png"
+            alt="feedback-hub" />
+
+
+        </div>
+        <div class="carousel-item">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span><br>
+          Luca1989
+          
+          <img width="64" height="64" src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/feedback-hub.png"
+            alt="feedback-hub" />
+        </div>
+
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+
+
+
+  </div>
+
+
+  <!--CONTENUTO FINALE E INFORMAZIONI-->
+  <div class="container my-5" style="margin: 0; padding: 0; box-sizing:border-box">
+    <!-- Footer -->
+    <footer class="text-center text-lg-start " style="background-color: #5299A9; width: 100vw; color: #000000;">
+      <!--Barra di Scorrimento PAYPAL E CONSEGNE-->
+
+      <div class="custom-marquee " role="region">
+        <div class="track">
+          <span class="content marquee-text" id="eng1">VINCENZO FERRARA
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LINKEDIN
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GITHUB
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span class="content marquee-text" id="eng1">DAVIDE SABIA
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LINKEDIN
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GITHUB
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span class="content marquee-text" id="eng1">GIANLUCA PERRIS
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LINKEDIN
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GITHUB
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span class="content marquee-text" id="eng1">DENNIS
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LINKEDIN
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GITHUB
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span class="content marquee-text" id="eng1">RAFFAELE MANNA
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LINKEDIN
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GITHUB
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span class="content marquee-text" id="eng1">VINCENZO FERRARA
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LINKEDIN
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GITHUB
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span class="content marquee-text" id="eng1">DAVIDE SABIA
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LINKEDIN
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GITHUB
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span class="content marquee-text" id="eng1">GIANLUCA PERRIS
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LINKEDIN
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GITHUB
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span class="content marquee-text" id="eng1">DENNIS
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LINKEDIN
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GITHUB
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span class="content marquee-text" id="eng1">RAFFAELE MANNA
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LINKEDIN
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GITHUB
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        </div>
+      </div>
+      <script>
+        var marquees = document.getElementsByClassName("marquee-text");
+        for (let i = 0; i < marquees.length; i++) {
+          // console.log(marquees.item(i));
+          let str = marquees.item(i).innerHTML;
+          let improvedText = str.replaceAll("|", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;")
+          console.log(improvedText)
+          marquees.item(i).innerHTML = improvedText
+        }
+      </script>
+
+      <div id="shopify-section-marquee" class="shopify-section">
+        <style>
+          .custom-marquee {
+            position: relative;
+            width: 100vw;
+            max-width: 100%;
+            height: 43px;
+            overflow-x: hidden;
+            background: #000000;
+            color: #ffffff;
+          }
+
+          .custom-marquee a {
+            color: #ffffff;
+          }
+
+          .custom-marquee .track {
+            position: absolute;
+            bottom: 6px;
+            white-space: nowrap;
+            will-change: transform;
+            animation: marquee 20s linear infinite;
+          }
+
+          .custom-marquee .track:hover {
+            animation-play-state: paused;
+          }
+
+          .custom-marquee .content {
+            margin-left: 40px;
+          }
+
+          @keyframes marquee {
+            from {
+              transform: translateX(0);
+            }
+
+            to {
+              transform: translateX(-20%);
+            }
+
+            /* Modifica la durata dell'animazione da 12 secondi a 20 secondi per renderla più lenta */
+
+          }
+        </style>
+
+        <!-- Section: Social media -->
+        <!-- Left -->
+        <div class="me-5 ">
+          <span></span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div style="display: flex; align-items: center; justify-content: center;">
+          <img width="84" height="84" src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/technical-support.png"
+            alt="technical-support" />
+        </div>
+        <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold">Company name</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #5299A9; height: 2px" />
+                <p id="Azienda" style="color: white;">
+                  Azienda nata a Night City trasferita a Napoli per installazione
+                  e riparazione cyberwear professionali per le corporazioni
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Products</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #5299A9;color: #5299A9; height: 2px" />
+                <p>
+                  <a href="#!" class="text-white">MDBootstrap</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">MDWordPress</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">BrandFlow</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Bootstrap Angular</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Useful links</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #5299A9; height: 2px" />
+                <p>
+                  <a href="#!" class="text-white">Your Account</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Become an Affiliate</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Shipping Rates</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Aiuto</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Contact</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #5299A9; height: 2px" />
+                <p style="color: white;"><i class="fas fa-home mr-3"></i> Napoli, NA 10012, IT</p>
+                <p style="color: white;"><i class="fas fa-envelope mr-3"></i> info@cyberbytes.it</p>
+                <p style="color: white;"><i class="fas fa-phone mr-3"></i>01 234 567 88</p>
+                <p style="color: white;"><i class="fas fa-print mr-3"></i>01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2023 Copyright:
+          <a class="text-white" href="https://github.com/advent1992">Gianluca</a>
+          <a class="text-white" href="https://github.com/Jungkook02">Vincenzo</a>
+          <a class="text-white" href="https://github.com/RaffaeleM22">Raffaele</a>
+          <a class="text-white" href="https://github.com/KarmaKun51">Davide</a>
+          <a class="text-white" href="https://github.com/dennivaslu/">Denis</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="./js/Serviziotech.js"></script>
+
+
+
+</body>
+
+</html>
